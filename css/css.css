@@ -1,0 +1,37 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+/*Колір основного тексту: color: #212121;*/
+/*Колір втооринного тексту:сolor: #757575;*/
+/* Чорний лого:#000000;білий лого:color: #FFFFFF; */
+/* Акцент-синій #2196F3;*/
+/*Вторичний колір фону: #E5E5E5*/
+
+/*Стилізація лого- logo*/
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+
+/*Стилізація навігації по сайту - nav-site*/
+.nav-site .link {
+  color: #212121;
+}
+.nav-site .link:hover,
+.nav-site .link:focus {
+  color: #2196f3;
+}
+/*Стилызація навігації адресу - nav-addres*/
+.nav-addres .link {
+  color: #757575;
+}
+.nav-addres .link:hover,
+.nav-addres .link:focus {
+  color: #2196f3;
+}
