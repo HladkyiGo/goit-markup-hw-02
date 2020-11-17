@@ -1,12 +1,18 @@
+:root {
+  --prymari-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: #757575;
 }
 .list {
   list-style: none;
 }
-/*Колір основного тексту: color: #212121;*/
-/*Колір втооринного тексту:сolor: #757575;*/
+/*Колір основного тексту: color:#757575; */
+/*Колір втооринного тексту:сolor:  #212121;*/
 /* Чорний лого:#000000;білий лого:color: #FFFFFF; */
 /* Акцент-синій #2196F3;*/
 /*Вторичний колір фону: #E5E5E5*/
@@ -34,4 +40,32 @@ body {
 .nav-addres .link:hover,
 .nav-addres .link:focus {
   color: #2196f3;
+}
+/*Hero*/
+.hero-title {
+  color: #ffffff;
+}
+/* Стилізація Преимуществ(advantages)*/
+.section .section-title {
+  color: #212121;
+}
+.advantages .title {
+  color: #212121;
+}
+/* Чем занимаемся(work)*/
+.section .section-title {
+  color: #212121;
+}
+/* Команда(command)*/
+
+.command .title {
+  color: #212121;
+}
+/* Стилізація підвалу(footer)*/
+.right-studio .logo-web {
+  color: #ffffff;
+}
+
+.nav-addres .link {
+  color: rgba(255, 255, 255, 0.6);
 }
