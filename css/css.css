@@ -2,10 +2,12 @@
   --prymari-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --black-text: #000000;
+  --white-text: #ffffff;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: #757575;
 }
 .list {
@@ -19,53 +21,50 @@ body {
 
 /*Стилізація лого- logo*/
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--black-text);
 }
 
 /*Стилізація навігації по сайту - nav-site*/
 .nav-site .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .nav-site .link:hover,
 .nav-site .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Стилызація навігації адресу - nav-addres*/
 .nav-addres .link {
-  color: #757575;
+  color: var(--prymari-text-color);
 }
 .nav-addres .link:hover,
 .nav-addres .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Hero*/
 .hero-title {
-  color: #ffffff;
+  color: var(--white-text);
 }
 /* Стилізація Преимуществ(advantages)*/
 .section .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .advantages .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 /* Чем занимаемся(work)*/
-.section .section-title {
-  color: #212121;
-}
+
 /* Команда(command)*/
 
 .command .title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 /* Стилізація підвалу(footer)*/
-.right-studio .logo-web {
-  color: #ffffff;
+.right-studio {
+  color: var(--white-text);
 }
-
-.nav-addres .link {
-  color: rgba(255, 255, 255, 0.6);
+.footer .link {
+  color: red; /* rgba(255, 255, 255, 0.6);*/
 }
