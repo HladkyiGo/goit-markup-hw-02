@@ -8,7 +8,7 @@
 
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--prymari-text-color);
 }
 .list {
   list-style: none;
@@ -34,6 +34,10 @@ body {
 .nav-site .link:hover,
 .nav-site .link:focus {
   color: var(--accent-color);
+}
+.nav-site .link.current {
+  color: var(--accent-color);
+}
 }
 /*Стилызація навігації адресу - nav-addres*/
 .nav-addres .link {
@@ -75,4 +79,10 @@ body {
 .hero .prymari {
   color: var(--white-text);
   background-color: var(--accent-color);
+}
+
+/* portfolio*/
+
+ .project .project-title{
+  color: var(--title-text-color);
 }
