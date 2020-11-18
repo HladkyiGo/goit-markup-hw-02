@@ -1,5 +1,5 @@
 :root {
-  --prymari-text-color: #757575;
+  --prymary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --black-text: #000000;
@@ -8,7 +8,7 @@
 
 body {
   background-color: #ffffff;
-  color: var(--prymari-text-color);
+  color: var(--prymary-text-color);
 }
 .list {
   list-style: none;
@@ -38,15 +38,16 @@ body {
 .nav-site .link.current {
   color: var(--accent-color);
 }
-}
+
 /*Стилызація навігації адресу - nav-addres*/
 .nav-addres .link {
-  color: var(--prymari-text-color);
+  color: var(--prymary-text-color);
 }
 .nav-addres .link:hover,
 .nav-addres .link:focus {
   color: var(--accent-color);
 }
+
 /*Hero*/
 .hero-title {
   color: var(--white-text);
@@ -83,6 +84,6 @@ body {
 
 /* portfolio*/
 
- .project .project-title{
+.project-list .title-name {
   color: var(--title-text-color);
 }
