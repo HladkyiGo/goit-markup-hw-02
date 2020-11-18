@@ -68,3 +68,11 @@ body {
 .footer .link {
   color: red; /* rgba(255, 255, 255, 0.6);*/
 }
+.button {
+  color: var(--black-text);
+  background-color: var(--white-text);
+}
+.hero .prymari {
+  color: var(--white-text);
+  background-color: var(--accent-color);
+}
