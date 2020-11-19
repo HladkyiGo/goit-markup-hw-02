@@ -20,7 +20,7 @@ body {
 /*Вторичний колір фону: #E5E5E5*/
 
 /*Стилізація лого- logo*/
-.logo-web {
+.logo-accent {
   color: var(--accent-color);
 }
 .logo-studio {
@@ -28,23 +28,23 @@ body {
 }
 
 /*Стилізація навігації по сайту - nav-site*/
-.nav-site .link {
+.site-nav .link {
   color: var(--title-text-color);
 }
-.nav-site .link:hover,
-.nav-site .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
-.nav-site .link.current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
-/*Стилызація навігації адресу - nav-addres*/
-.nav-addres .link {
+/*Стилызація навігації адресу - contacts*/
+.contacts .link {
   color: var(--prymary-text-color);
 }
-.nav-addres .link:hover,
-.nav-addres .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -63,11 +63,11 @@ body {
 
 /* Команда(command)*/
 
-.command .title {
+.team .title {
   color: var(--title-text-color);
 }
 /* Стилізація підвалу(footer)*/
-.right-studio {
+.logo-text {
   color: var(--white-text);
 }
 .footer .link {
