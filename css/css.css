@@ -1,5 +1,7 @@
 :root {
   --prymary-text-color: #757575;
+  --prymary-bg-color:#E5E5E5;
+  --minor-bg-color:#F5F4FA;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --black-text: #000000;
@@ -79,22 +81,58 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.hero .button {
+  color: var(--white-text);
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
 /* Стилізація Преимуществ(advantages)*/
-.section .section-title {
+.section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.advantages .title {
-  color: var(--title-text-color);
+.advantages .text{
+  
+font-size: 14px;
+line-height: 1.71;
 }
-/* Чем занимаемся(work)*/
 
-/* Команда(command)*/
-
-.team .title {
+ .advantages .title {
   color: var(--title-text-color);
+  font-weight: bold;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+/* team*/
+.team .title{
+  color: var(--title-text-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+
+}
+
+.team .text{
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
 }
 /* Стилізація підвалу(footer)*/
-.logo-text {
+.logo-text{
   color: var(--white-text);
   font-family: Raleway, cursive;
   letter-spacing: 0.03em;
@@ -102,23 +140,46 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
+
+.addres-text{
+  color: tomato /*var{var(--white-text)}*/;
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
 .footer .link {
   color: red; /* rgba(255, 255, 255, 0.6);*/
+  font-size: 14px;
+line-height: 1.19;
+
+
+letter-spacing: 0.03em;
+
 }
-.button {
-  color: var(--white-text);
-  background-color: var(--accent-color);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-}
-.hero .prymari {
-  color: var(--white-text);
-  background-color: var(--accent-color);
-}
+
+
 
 /* portfolio*/
 
-.project-list .title-name {
+.filter{
+font-family: inherit;
+color: var(--title-text-color);
+background-color: var(--prymary-bg-color);
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.title-name {
   color: var(--title-text-color);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.06em
+}
+.project-text{
+  color: var(--prymary-text-color);
+  font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
