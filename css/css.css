@@ -1,7 +1,7 @@
 :root {
   --prymary-text-color: #757575;
-  --prymary-bg-color:#E5E5E5;
-  --minor-bg-color:#F5F4FA;
+  --prymary-bg-color: #e5e5e5;
+  --minor-bg-color: #f5f4fa;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --black-text: #000000;
@@ -98,42 +98,38 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.advantages .text{
-  
-font-size: 14px;
-line-height: 1.71;
+.advantages .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
- .advantages .title {
+.advantages .title {
   color: var(--title-text-color);
   font-weight: bold;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /* team*/
-.team .title{
+.team .title {
   color: var(--title-text-color);
   font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
-.team .text{
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
-}
-}
 /* Стилізація підвалу(footer)*/
-.logo-text{
-  color: var(--white-text);
+.logo-white {
+  color: brown /* var(--white-text)*/;
   font-family: Raleway, cursive;
   letter-spacing: 0.03em;
   font-weight: bold;
@@ -141,30 +137,28 @@ letter-spacing: 0.03em;
   line-height: 1.19;
 }
 
-.addres-text{
+.addres-text {
   color: tomato /*var{var(--white-text)}*/;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer .link {
   color: red; /* rgba(255, 255, 255, 0.6);*/
   font-size: 14px;
-line-height: 1.19;
-letter-spacing:0.03em;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-
-
 
 /* portfolio*/
 
-.filter{
-font-family: inherit;
-color: var(--title-text-color);
-background-color: var(--prymary-bg-color);
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
+.filter {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--prymary-bg-color);
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .title-name {
@@ -172,11 +166,11 @@ letter-spacing: 0.03em;
   font-size: 18px;
   font-weight: bold;
   line-height: 2;
-  letter-spacing: 0.06em
+  letter-spacing: 0.06em;
 }
-.project-text{
+.project-text {
   color: var(--prymary-text-color);
   font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
